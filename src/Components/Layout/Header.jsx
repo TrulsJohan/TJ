@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import linkedIn from '../../assets/linkedIn.svg';
+
 export function Header() {
     return (
         <header className="bg-white shadow-md sticky top-0 z-10">
@@ -6,25 +9,25 @@ export function Header() {
                     Truls Johan
                 </p>
                 <nav className="flex space-x-4">
-                    <a
-                        href="#about"
+                    <Link
+                        to="/about"
                         className="text-gray-600 hover:text-gray-800 transition">
                         About
-                    </a>
-                    <a
-                        href="#projects"
+                    </Link>
+                    <Link
+                        to="/projects"
                         className="text-gray-600 hover:text-gray-800 transition">
                         Projects
-                    </a>
-                    <a
-                        href="#contact"
+                    </Link>
+                    <Link
+                        to="/contact"
                         className="text-gray-600 hover:text-gray-800 transition">
                         Contact
-                    </a>
+                    </Link>
                 </nav>
                 <img
-                    src={''}
-                    alt="Background"
+                    src={linkedIn}
+                    alt="LinkedIn"
                     className="w-8 h-8 mt-2 sm:mt-0"
                 />
             </div>
