@@ -1,5 +1,3 @@
-import linnkedin from '../../assets/linnkedin';
-
 export function Header() {
     return (
         <header className="bg-white shadow-md sticky top-0 z-10">
@@ -25,7 +23,7 @@ export function Header() {
                     </a>
                 </nav>
                 <img
-                    src={linnkedin}
+                    src={''}
                     alt="Background"
                     className="w-8 h-8 mt-2 sm:mt-0"
                 />
