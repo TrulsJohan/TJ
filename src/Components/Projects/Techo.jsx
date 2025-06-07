@@ -1,0 +1,57 @@
+import { FaArrowRight } from 'react-icons/fa6';
+import techo from '../../assets/techo.png';
+
+export function Techo() {
+    return (
+        <div className='flex flex-row bg-gray-900 border border-gray-50 rounded-4xl items-center gap-4 p-4'>
+            <div className="flex flex-row bg-gray-900 text-gray-50 border border-gray-50 p-6 rounded-4xl">
+                <div className="flex flex-col bg-gray-900 justify-between">
+                    <div>
+                        <div className="flex items-center gap-3 border border-gray-50 rounded-2xl px-3 py-1 w-fit">
+                            <div className="bg-yellow-200 rounded-full w-5 h-5"></div>
+                            <p className="text-sm font-medium">
+                                Frontend Development
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col gap-9">
+                        <div className="flex flex-col gap-1">
+                            <p className="text-4xl md:text-5xl">1--3</p>
+                            <h2 className="text-5xl md:text-6xl font-bold">
+                                Techo
+                            </h2>
+                            <p className="text-gray-300 text-sm md:text-base">
+                                Welcome to the Future Home Technology website, a
+                                cutting-edge platform showcasing the latest in
+                                smart home innovation. Designed with sleek,
+                                user-friendly interfaces, this site offers an
+                                immersive experience, seamlessly blending
+                                intuitive navigation with stunning visuals.
+                            </p>
+                        </div>
+
+                        <div className="flex flex-wrap gap-4">
+                            <a className="flex items-center bg-gray-900 border border-gray-50 rounded-2xl px-3 py-1 hover:bg-gray-800 transition">
+                                <span className="text-sm font-medium">
+                                    View
+                                </span>
+                                <div className="ml-2 bg-yellow-200 rounded-full w-6 h-6 flex items-center justify-center">
+                                    <FaArrowRight className="text-gray-900 w-4 h-4" />
+                                </div>
+                            </a>
+                            <div className="bg-gray-900 border border-gray-50 rounded-full px-3 py-1 text-sm font-medium flex items-center">
+                                NON-PROFIT
+                            </div>
+                            <div className="bg-gray-900 border border-gray-50 rounded-full px-3 py-1 text-sm font-medium flex items-center">
+                                2024
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src={techo} alt="project"></img>
+            </div>
+            <div className="bg-yellow-200 rounded-full w-5 h-5"></div>
+        </div>
+    );
+}
