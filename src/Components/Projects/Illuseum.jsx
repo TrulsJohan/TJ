@@ -3,8 +3,8 @@ import illuseum from '../../assets/illuseum.png';
 
 export function Illuseum() {
     return (
-        <div className="flex flex-row bg-gray-900 border border-gray-50 rounded-4xl items-center gap-4 p-4">
-            <div className="flex flex-row bg-gray-900 text-gray-50 border border-gray-50 p-6 rounded-4xl">
+        <div className="flex flex-row bg-gray-900 border border-gray-50 rounded-3xl items-center gap-4 p-4 sm:p-6 md:p-8">
+            <div className="flex flex-col lg:flex-row w-full justify-between bg-gray-900 text-gray-50 border border-gray-50 p-4 sm:p-6 md:p-8 rounded-2xl gap-6">
                 <div className="flex flex-col bg-gray-900 justify-between">
                     <div>
                         <div className="flex items-center gap-3 border border-gray-50 rounded-2xl px-3 py-1 w-fit">
@@ -15,24 +15,28 @@ export function Illuseum() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-9">
+                    <div className="flex flex-col gap-6 sm:gap-8 md:gap-9">
                         <div className="flex flex-col gap-1">
-                            <p className="text-4xl md:text-5xl">3--3</p>
-                            <h2 className="text-5xl md:text-6xl font-bold">
+                            <p className="text-3xl sm:text-4xl md:text-5xl">
+                                3--3
+                            </p>
+                            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold">
                                 Illuseum
                             </h2>
-                            <p className="text-gray-300 text-sm md:text-base">
-                                Welcome to the Future Home Technology website, a
-                                cutting-edge platform showcasing the latest in
-                                smart home innovation. Designed with sleek,
-                                user-friendly interfaces, this site offers an
-                                immersive experience, seamlessly blending
-                                intuitive navigation with stunning visuals.
+                            <p className="text-gray-300 text-sm sm:text-base md:text-lg w-full sm:w-[90%] md:w-[600px]">
+                                Illuseum is an innovative museum website focused
+                                on optical illusions. With sleek, engaging
+                                interfaces, it provides an immersive experience,
+                                blending intuitive navigation and striking
+                                visuals to captivate visitors with mesmerizing
+                                art.
                             </p>
                         </div>
 
                         <div className="flex flex-wrap gap-4">
-                            <a className="flex items-center bg-gray-900 border border-gray-50 rounded-2xl px-3 py-1 hover:bg-gray-800 transition">
+                            <a
+                                href="https://illuseum.netlify.app/"
+                                className="flex items-center bg-gray-900 border border-gray-50 rounded-2xl px-3 py-1 hover:bg-gray-800 transition">
                                 <span className="text-sm font-medium">
                                     View
                                 </span>
@@ -40,18 +44,26 @@ export function Illuseum() {
                                     <FaArrowRight className="text-gray-900 w-4 h-4" />
                                 </div>
                             </a>
-                            <div className="bg-gray-900 border border-gray-50 rounded-full px-3 py-1 text-sm font-medium flex items-center">
-                                NON-PROFIT
-                            </div>
+                            <a
+                                href="https://github.com/TrulsJohan/illuseum"
+                                className="flex items-center bg-gray-900 border border-gray-50 rounded-2xl px-3 py-1 hover:bg-gray-800 transition">
+                                <span className="text-sm font-medium">
+                                    GitHub
+                                </span>
+                            </a>
                             <div className="bg-gray-900 border border-gray-50 rounded-full px-3 py-1 text-sm font-medium flex items-center">
                                 2024
                             </div>
                         </div>
                     </div>
                 </div>
-                <img src={illuseum} alt="project"></img>
+                <img
+                    src={illuseum}
+                    alt="Illuseum Project"
+                    className="w-full sm:w-2/5 md:w-1/3 lg:w-2/10 object-cover rounded-2xl"
+                />
             </div>
-            <div className="bg-blue-200 rounded-full w-5 h-5"></div>
+            <div className="bg-blue-200 rounded-full w-1 h-5"></div>
         </div>
     );
 }
