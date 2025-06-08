@@ -1,12 +1,47 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, where you can see my work.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of contents
 
-## Expanding the ESLint configuration
+- About
+- Features
+- Technical Spesifications
+  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About
+
+My portfolio website is an ongoing website, where you can check out my latest and best work. I mainly focus on Frontend Developent and design. All the sites listes in my portfolio have a link to the live site, and github repo asociated. It also have conntact information for those how are interrested in offers or collaborations.
+
+
+## Features
+  
+- ### index
+  - home/landing page, where you can navigate the website.
+  - links to all the projects dislayed
+  - contact information
+  
+
+## Technical spesification
+
+The website is responsive on mobile, tablet and desktop.
+
+- React
+- Tailwind
+- Vite
+
+
+## Acknowledgements
+
+This website is not jet done, and will be updated along the way with new projects and websites.
+
+
+## Deployment
+
+The webiste is deployed with netlify [here]().
+
+
+## Developers
+
+- Truls Johan
