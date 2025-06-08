@@ -39,7 +39,7 @@ This website is not jet done, and will be updated along the way with new project
 
 ## Deployment
 
-The webiste is deployed with netlify [here]().
+The webiste is deployed with netlify [here](https://trulsjohanportfolio.netlify.app/).
 
 
 ## Developers
